@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Form Letter</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Beginning of form -->
+    <h1>Your letter starts here:</h1>
+    <form id="letterCollection">
+      <div class="form-group">
+        <label for="name">Enter name here:</label>
+        <input id="personName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="address">Enter address here:</label>
+        <input id="personAddress" class="form-control" type="text">
+      </div>
+    </form>
+    <!-- Beginning of letter-->
+    <div id="letter">
+      <h3>Your generated letter:</h3>
+      <hr>
+      <p>Dear, <span class="name"></span><br></p>
+      <p>
+        <span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu risus vestibulum, varius justo vitae,
+        commodo nulla. Nulla id feugiat velit. Ut scelerisque, sapien sed tempor venenatis, urna ipsum elementum turpis, 
+        vitae ultrices diam augue sit amet metus. Maecenas malesuada, sem ut feugiat fringilla, libero augue viverra 
+        risus, nec blandit ligula augue eget elit. Aliquam at ipsum vitae ligula dignissim tristique sit amet vitae 
+        diam.<br><br> <span class="tab"></span>Praesent lacinia libero dui, nec consectetur elit gravida bibendum. Vestibulum justo tellus, placerat 
+        vitae bibendum nec, commodo in ligula. Mauris eu purus felis. Ut nec eros quis ligula tempor pretium nec eu 
+        leo. Nam elementum, sapien in sodales pharetra, sem eros consectetur leo, et pellentesque odio nisi eu enim. 
+        Suspendisse erat purus, blandit sit amet ligula sit amet, pellentesque tincidunt lorem. Suspendisse eu nisi ut 
+        ligula tincidunt facilisis at sagittis ante. Pellentesque accumsan tortor felis, vel iaculis purus lacinia in.
+        Maecenas fermentum ligula velit, eget consectetur mauris fermentum at. Donec metus leo, mattis vitae ultricies
+        vel, porttitor vel orci.<br>
+      </p>
+      <p>
+        Cordially yours, <br><br>
+        <span class="tab"></span>The Computer
+      </p>
+
+
+
+    </div>
+  </div>
+</body>
+</html>
